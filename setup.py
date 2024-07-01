@@ -32,12 +32,12 @@ setup(
     install_requires=[
         'requests',
         'atlassian-python-api',
-        'python-gearman @ git+https://github.r0l.me/rreissdorker/snyk-peak.git',
-        'pytest @ git+https://github.r0l.me/ravivzomer/tb.git',
+        # 'python-gearman @ git+https://github.r0l.me/rreissdorker/snyk-peak.git',
+        # 'pytest @ git+https://github.r0l.me/ravivzomer/tb.git',
     ],
     dependency_links=[
         # Make sure to include the `#egg` portion so the `install_requires` recognizes the package
-        'git+https://github.r0l.me/ravivzomer/atlassian-python-api.git#egg=atlassian-python-api-0.1',
+        # 'git+https://github.r0l.me/ravivzomer/atlassian-python-api.git#egg=atlassian-python-api-0.1',
     ],
     license="MI<u>TTTT"
 )
