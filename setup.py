@@ -1,11 +1,11 @@
-import subprocess
-import sys
+# import subprocess
+# import sys
 
-try:
-    import requests
-except ImportError:
-    subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'requests'])
-    import requests
+# try:
+#     import requests
+# except ImportError:
+#     subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'requests'])
+#     import requests
 
 from setuptools import setup
 
@@ -28,6 +28,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Rotem Reiss',
     author_email='rreiss@wearehackerone.com',
+    setup_requires=['requests'],  # This will try to install requests before setup
     install_requires=[
         'requests',
         'atlassian-python-api',
